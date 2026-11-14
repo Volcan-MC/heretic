@@ -1,4 +1,3 @@
-
 package aspen.heretic.heretic.block;
 
 import aspen.heretic.heretic.helpers.EnchantmentVowHelper;
