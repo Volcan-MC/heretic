@@ -1,0 +1,24 @@
+{
+  "layers": {
+    "wolf_body": [
+      {
+        "texture": "heretic:heretic"
+      }
+    ],
+    "horse_body": [
+      {
+        "texture": "heretic:heretic"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "heretic:heretic"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "heretic:heretic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "minecraft:tuff",
+    "R": [
+      "minecraft:ender_pearl"
+    ],
+    "E": [
+      "minecraft:echo_shard"
+    ]
+  },
+  "pattern": [
+    " #R",
+    "#E#",
+    "R# "
+  ],
+  "result": {
+    "count": 1,
+    "id": "heretic:shift_rune"
+  }
+}

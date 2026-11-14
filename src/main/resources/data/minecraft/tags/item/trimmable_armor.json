@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "heretic:heretic_helmet",
+    "heretic:heretic_chestplate",
+    "heretic:heretic_leggings",
+    "heretic:heretic_boots"
+  ]
+}

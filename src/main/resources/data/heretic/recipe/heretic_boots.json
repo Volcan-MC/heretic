@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "heretic_armour",
+  "key": {
+    "#": "minecraft:netherite_boots",
+    "@": "heretic:binding_vow"
+  },
+  "pattern": [
+    "#@"
+  ],
+  "result": {
+    "count": 1,
+    "id": "heretic:heretic_boots"
+  }
+}

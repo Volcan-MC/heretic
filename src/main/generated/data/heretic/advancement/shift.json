@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "e": {
+      "conditions": {
+        "items": [
+          {
+            "items": "heretic:shift_rune"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heretic.shift.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "heretic:shift_rune"
+    },
+    "title": {
+      "translate": "advancements.heretic.shift.title"
+    }
+  },
+  "requirements": [
+    [
+      "e"
+    ]
+  ]
+}

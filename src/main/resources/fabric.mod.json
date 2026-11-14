@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "heretic",
+	"version": "${version}",
+	"name": "Heretic",
+	"description": "fate favours those who deserve it.",
+	"authors": [
+		"ItsVixen_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/heretic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"aspen.heretic.heretic.Heretic"
+		],
+		"fabric-datagen": [
+			"aspen.heretic.heretic.HereticDataGenerator"
+		]
+	},
+	"mixins": [
+		"heretic.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"enchancement": "*"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "heretic:block/shattered_idol"
+    },
+    "active=true": {
+      "model": "heretic:block/shattered_idol_active"
+    }
+  }
+}

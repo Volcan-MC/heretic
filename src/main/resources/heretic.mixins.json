@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "aspen.heretic.heretic.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EnchantmentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "TooltipRendererMixin"
+  ]
+}

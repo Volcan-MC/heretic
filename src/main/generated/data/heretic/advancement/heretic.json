@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "e": {
+      "conditions": {
+        "items": [
+          {
+            "items": "heretic:binding_vow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "color": "#880808",
+      "translate": "advancements.heretic.heretic.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "heretic:binding_vow"
+    },
+    "title": {
+      "color": "#880808",
+      "translate": "advancements.heretic.heretic.title"
+    }
+  },
+  "requirements": [
+    [
+      "e"
+    ]
+  ]
+}
